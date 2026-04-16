@@ -134,6 +134,7 @@ function HealBeforeTheDeal() {
                        var(--background)`,
         }}
       >
+        <div className="absolute inset-0 bg-cover bg-center opacity-[0.07] pointer-events-none" style={{ backgroundImage: "url('/images/hero-flyer.jpg')" }} />
         <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gold to-transparent opacity-40" />
         <div className="max-w-[780px] mx-auto px-7 text-center flex flex-col items-center">
           <div className="inline-flex items-center gap-2 border border-gold/35 rounded-full px-4 py-1.5 text-xs font-semibold tracking-[1.5px] uppercase text-gold mb-7">
