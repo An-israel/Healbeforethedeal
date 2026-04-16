@@ -134,7 +134,8 @@ function HealBeforeTheDeal() {
                        var(--background)`,
         }}
       >
-        <div className="absolute inset-0 bg-cover bg-center opacity-[0.07] pointer-events-none" style={{ backgroundImage: "url('/images/hero-flyer.jpg')" }} />
+<div className="absolute inset-0 bg-cover bg-center opacity-30 pointer-events-none" style={{ backgroundImage: "url('/images/hero-flyer.jpg')" }} />
+        <div className="absolute inset-0 bg-background/60 pointer-events-none" />
         <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gold to-transparent opacity-40" />
         <div className="max-w-[780px] mx-auto px-7 text-center flex flex-col items-center">
           <div className="inline-flex items-center gap-2 border border-gold/35 rounded-full px-4 py-1.5 text-xs font-semibold tracking-[1.5px] uppercase text-gold mb-7">
@@ -157,7 +158,7 @@ function HealBeforeTheDeal() {
           </div>
 
           <div className="flex flex-col gap-3 items-center">
-            <a href="#price" className="btn-primary inline-flex items-center gap-2.5 bg-gold text-background font-bold text-base px-10 py-[18px] rounded-md no-underline shadow-[0_4px_24px_rgba(201,168,76,0.3)] hover:translate-y-[-2px] hover:shadow-[0_8px_32px_rgba(201,168,76,0.5)] transition-all relative overflow-hidden">
+            <a href="https://www.teaketer.online/events/heal-before-the-deal" target="_blank" rel="noopener noreferrer" className="btn-primary inline-flex items-center gap-2.5 bg-gold text-background font-bold text-base px-10 py-[18px] rounded-md no-underline shadow-[0_4px_24px_rgba(201,168,76,0.3)] hover:translate-y-[-2px] hover:shadow-[0_8px_32px_rgba(201,168,76,0.5)] transition-all relative overflow-hidden">
               Secure My Spot for ₦10,000
               <ArrowRight className="w-[18px] h-[18px]" />
             </a>
@@ -301,7 +302,7 @@ function HealBeforeTheDeal() {
               <CountdownUnit value={pad(countdown.secs)} label="Secs" />
             </div>
             <p className="text-[15px] text-muted-foreground mb-8">May 8th, 2026 · 9:00PM West Africa Time</p>
-            <a href="#price" className="btn-primary inline-flex items-center gap-2.5 bg-gold text-background font-bold text-base px-10 py-[18px] rounded-md no-underline shadow-[0_4px_24px_rgba(201,168,76,0.3)] hover:translate-y-[-2px] hover:shadow-[0_8px_32px_rgba(201,168,76,0.5)] transition-all">
+            <a href="https://www.teaketer.online/events/heal-before-the-deal" target="_blank" rel="noopener noreferrer" className="btn-primary inline-flex items-center gap-2.5 bg-gold text-background font-bold text-base px-10 py-[18px] rounded-md no-underline shadow-[0_4px_24px_rgba(201,168,76,0.3)] hover:translate-y-[-2px] hover:shadow-[0_8px_32px_rgba(201,168,76,0.5)] transition-all">
               Reserve My Seat Now <ArrowRight className="w-[18px] h-[18px]" />
             </a>
           </div>
@@ -402,7 +403,7 @@ function HealBeforeTheDeal() {
                 <br /><br />
                 This price is only available until we hit capacity. Once the seats are gone, they're gone.
               </p>
-              <a href="#" className="btn-primary inline-flex items-center gap-2.5 bg-gold text-background font-bold text-base px-10 py-[18px] rounded-md no-underline shadow-[0_4px_24px_rgba(201,168,76,0.3)] hover:translate-y-[-2px] hover:shadow-[0_8px_32px_rgba(201,168,76,0.5)] transition-all w-full justify-center">
+              <a href="https://www.teaketer.online/events/heal-before-the-deal" target="_blank" rel="noopener noreferrer" className="btn-primary inline-flex items-center gap-2.5 bg-gold text-background font-bold text-base px-10 py-[18px] rounded-md no-underline shadow-[0_4px_24px_rgba(201,168,76,0.3)] hover:translate-y-[-2px] hover:shadow-[0_8px_32px_rgba(201,168,76,0.5)] transition-all w-full justify-center">
                 Yes — I'm Ready. Register Now <ArrowRight className="w-[18px] h-[18px]" />
               </a>
             </div>
@@ -466,7 +467,7 @@ function HealBeforeTheDeal() {
             <p className="text-lg text-muted-foreground max-w-[520px] mx-auto mb-11 leading-relaxed">
               Every great relationship starts with a healed person. You have the information. You have the opportunity. The only thing standing between you and your breakthrough is one decision.
             </p>
-            <a href="#price" className="btn-primary inline-flex items-center gap-2.5 bg-gold text-background font-bold text-base px-10 py-[18px] rounded-md no-underline shadow-[0_4px_24px_rgba(201,168,76,0.3)] hover:translate-y-[-2px] hover:shadow-[0_8px_32px_rgba(201,168,76,0.5)] transition-all">
+            <a href="https://www.teaketer.online/events/heal-before-the-deal" target="_blank" rel="noopener noreferrer" className="btn-primary inline-flex items-center gap-2.5 bg-gold text-background font-bold text-base px-10 py-[18px] rounded-md no-underline shadow-[0_4px_24px_rgba(201,168,76,0.3)] hover:translate-y-[-2px] hover:shadow-[0_8px_32px_rgba(201,168,76,0.5)] transition-all">
               Register for Heal Before the Deal <ArrowRight className="w-[18px] h-[18px]" />
             </a>
 
@@ -486,7 +487,7 @@ function HealBeforeTheDeal() {
           Online Webinar · May 8–10, 2026 · 9PM WAT · <span className="text-teal-lt font-semibold">@thepastorpeter</span>
         </p>
         <p className="text-[13px] text-muted-foreground/70">
-          Questions? Reach out via <a href="#" className="text-gold no-underline">@thepastorpeter</a> on social media.
+          Questions? Reach out via <a href="https://www.teaketer.online/events/heal-before-the-deal" target="_blank" rel="noopener noreferrer" className="text-gold no-underline">@thepastorpeter</a> on social media.
         </p>
       </footer>
 
@@ -496,7 +497,7 @@ function HealBeforeTheDeal() {
           <strong className="font-serif font-extrabold text-[17px] text-foreground block">Heal Before the Deal — May 8–10</strong>
           <span className="text-[13px] text-muted-foreground">9PM WAT · Online · Only ₦10,000</span>
         </div>
-        <a href="#price" className="inline-flex items-center gap-2.5 bg-gold text-background font-bold text-[15px] px-8 py-3.5 rounded-md no-underline shadow-[0_4px_24px_rgba(201,168,76,0.3)] hover:translate-y-[-2px] hover:shadow-[0_8px_32px_rgba(201,168,76,0.5)] transition-all max-[520px]:w-full max-[520px]:justify-center">
+        <a href="https://www.teaketer.online/events/heal-before-the-deal" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2.5 bg-gold text-background font-bold text-[15px] px-8 py-3.5 rounded-md no-underline shadow-[0_4px_24px_rgba(201,168,76,0.3)] hover:translate-y-[-2px] hover:shadow-[0_8px_32px_rgba(201,168,76,0.5)] transition-all max-[520px]:w-full max-[520px]:justify-center">
           Register Now <ArrowRight className="w-[18px] h-[18px]" />
         </a>
       </div>
