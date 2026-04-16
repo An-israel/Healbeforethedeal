@@ -29,14 +29,16 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Heal before the deal" },
+      { name: "description", content: "You're not unlucky in love. You're carrying wounds that keep choosing for you. Join Dr. Peter Obichukwu for a 3 day live masterclass designed to help you unders" },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Heal before the deal" },
+      { property: "og:description", content: "You're not unlucky in love. You're carrying wounds that keep choosing for you. Join Dr. Peter Obichukwu for a 3 day live masterclass designed to help you unders" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Heal before the deal" },
+      { name: "twitter:description", content: "You're not unlucky in love. You're carrying wounds that keep choosing for you. Join Dr. Peter Obichukwu for a 3 day live masterclass designed to help you unders" },
     ],
     links: [
       {
