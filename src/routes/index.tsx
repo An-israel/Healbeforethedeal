@@ -130,7 +130,7 @@ function HealBeforeTheDeal() {
       <section className="min-h-screen flex items-center py-[90px] pb-20 border-b border-border relative overflow-hidden bg-background">
         <div
           className="absolute inset-0 bg-cover bg-center pointer-events-none"
-          style={{ backgroundImage: "url('/images/hero-flyer.jpg')", opacity: 0.15 }}
+          style={{ backgroundImage: "url('/images/hero-flyer.jpg')", opacity: 0.08 }}
         />
         <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gold to-transparent opacity-40" />
         <div className="max-w-[780px] mx-auto px-7 text-center flex flex-col items-center">
