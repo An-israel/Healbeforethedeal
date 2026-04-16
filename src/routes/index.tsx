@@ -134,11 +134,6 @@ function HealBeforeTheDeal() {
         />
         <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gold to-transparent opacity-40" />
         <div className="max-w-[780px] mx-auto px-7 text-center flex flex-col items-center">
-          <div className="inline-flex items-center gap-2 border border-gold/35 rounded-full px-4 py-1.5 text-xs font-semibold tracking-[1.5px] uppercase text-gold mb-7">
-            <Star className="w-3 h-3" />
-            3 Day Online Masterclass · May 8–10, 2026
-          </div>
-
           <h1 className="font-serif font-black text-foreground leading-none mb-5" style={{ fontSize: "clamp(44px,6.5vw,78px)" }}>
             Heal<br />Before<br /><em className="italic text-gold">The Deal.</em>
           </h1>
