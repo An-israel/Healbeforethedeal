@@ -61,9 +61,10 @@ function useCountdown(targetDate: Date) {
     };
   }, [targetDate]);
 
-  const [time, setTime] = useState(calc);
+  const [time, setTime] = useState({ days: 0, hours: 0, mins: 0, secs: 0 });
 
   useEffect(() => {
+    setTime(calc);
     const id = setInterval(() => setTime(calc), 1000);
     return () => clearInterval(id);
   }, [calc]);
@@ -183,8 +184,8 @@ function HealBeforeTheDeal() {
           <div className="max-w-[960px] mx-auto px-7">
             <div className="grid md:grid-cols-[340px_1fr] gap-16 items-center">
               <div className="rounded-[20px] overflow-hidden border border-gold/20 shadow-[0_24px_64px_rgba(0,0,0,0.5)] aspect-[4/5]">
-                <img
-                  src="https://xoqriqoswijgbmunypbb.supabase.co/storage/v1/object/public/product-images/site-content/1775672031553-v9so7x.jpg"
+              <img
+                  src="/images/dr-peter.jpg"
                   alt="Dr. Peter Obichukwu"
                   className="w-full h-full object-cover object-top"
                 />
