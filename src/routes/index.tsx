@@ -127,15 +127,11 @@ function HealBeforeTheDeal() {
       </div>
 
       {/* ── Hero ── */}
-      <section className="min-h-screen flex items-center py-[90px] pb-20 border-b border-border relative overflow-hidden"
-        style={{
-          background: `radial-gradient(ellipse 60% 55% at 70% 50%, rgba(201,168,76,0.07) 0%, transparent 70%),
-                       radial-gradient(ellipse 50% 60% at 20% 30%, rgba(26,140,126,0.06) 0%, transparent 65%),
-                       var(--background)`,
-        }}
-      >
-<div className="absolute inset-0 bg-cover bg-center opacity-30 pointer-events-none" style={{ backgroundImage: "url('/images/hero-flyer.jpg')" }} />
-        <div className="absolute inset-0 bg-background/60 pointer-events-none" />
+      <section className="min-h-screen flex items-center py-[90px] pb-20 border-b border-border relative overflow-hidden bg-background">
+        <div
+          className="absolute inset-0 bg-cover bg-center pointer-events-none"
+          style={{ backgroundImage: "url('/images/hero-flyer.jpg')", opacity: 0.15 }}
+        />
         <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gold to-transparent opacity-40" />
         <div className="max-w-[780px] mx-auto px-7 text-center flex flex-col items-center">
           <div className="inline-flex items-center gap-2 border border-gold/35 rounded-full px-4 py-1.5 text-xs font-semibold tracking-[1.5px] uppercase text-gold mb-7">
