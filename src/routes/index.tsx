@@ -31,7 +31,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "A 3 Day Masterclass on Emotional Healing, Breaking Traumatic Patterns & Relationship Readiness with Dr. Peter Obichukwu. May 8–10 · 9PM WAT · Online.",
+          "A 3 Day Masterclass on Emotional Healing, Breaking Traumatic Patterns & Relationship Readiness with Dr. Peter Obichukwu. May 28–30 · 9PM WAT · Online.",
       },
     ],
     links: [
@@ -105,7 +105,7 @@ function FadeUp({ children, className = "" }: { children: React.ReactNode; class
 
 /* ───────── MAIN PAGE ───────── */
 function HealBeforeTheDeal() {
-  const targetDate = new Date("2026-05-08T21:00:00+01:00");
+  const targetDate = new Date("2026-05-28T21:00:00+01:00");
   const countdown = useCountdown(targetDate);
   const [showSticky, setShowSticky] = useState(false);
 
@@ -122,7 +122,7 @@ function HealBeforeTheDeal() {
       {/* ── Announcement Bar ── */}
       <div className="bg-gold text-background text-center py-3 px-5 font-bold text-[13px] tracking-wide">
         <span className="inline-block animate-nudge">
-          ⚡ Only 3 Days of Pure Transformation — May 8–10 · 9PM WAT · Online · ₦10,000 Only
+          ⚡ Only 3 Days of Pure Transformation — May 28–30 · 9PM WAT · Online · ₦10,000 Only
         </span>
       </div>
 
@@ -143,7 +143,7 @@ function HealBeforeTheDeal() {
           </p>
 
           <div className="flex flex-wrap gap-5 mb-10 justify-center">
-            <MetaChip icon={<Calendar className="w-[18px] h-[18px] text-gold" />} text="May 8th – 10th" />
+            <MetaChip icon={<Calendar className="w-[18px] h-[18px] text-gold" />} text="May 28th – 30th" />
             <MetaChip icon={<Clock className="w-[18px] h-[18px] text-gold" />} text="9PM WAT · Every Night" />
             <MetaChip icon={<Monitor className="w-[18px] h-[18px] text-gold" />} text="Live Online" />
           </div>
@@ -292,7 +292,7 @@ function HealBeforeTheDeal() {
               <span className="font-serif text-[52px] font-black text-gold/30 self-start pt-5 animate-blink">:</span>
               <CountdownUnit value={pad(countdown.secs)} label="Secs" />
             </div>
-            <p className="text-[15px] text-muted-foreground mb-8">May 8th, 2026 · 9:00PM West Africa Time</p>
+            <p className="text-[15px] text-muted-foreground mb-8">May 28th, 2026 · 9:00PM West Africa Time</p>
             <a href="https://www.teaketer.online/events/heal-before-the-deal" target="_blank" rel="noopener noreferrer" className="btn-primary inline-flex items-center gap-2.5 bg-gold text-background font-bold text-base px-10 py-[18px] rounded-md no-underline shadow-[0_4px_24px_rgba(201,168,76,0.3)] hover:translate-y-[-2px] hover:shadow-[0_8px_32px_rgba(201,168,76,0.5)] transition-all">
               Reserve My Seat Now <ArrowRight className="w-[18px] h-[18px]" />
             </a>
@@ -411,7 +411,7 @@ function HealBeforeTheDeal() {
           <div className="h-full w-[76%] bg-gradient-to-r from-red-accent to-[#ff7070] rounded-full" />
         </div>
         <p className="text-xs text-muted-foreground mt-2 font-medium">
-          Registration closes when capacity is reached or at the stroke of midnight before May 8th.
+          Registration closes when capacity is reached or at the stroke of midnight before May 28th.
         </p>
       </div>
 
@@ -463,7 +463,7 @@ function HealBeforeTheDeal() {
             </a>
 
             <div className="max-w-[620px] mx-auto mt-16 border-t border-border pt-8 text-[15px] text-muted-foreground leading-[1.8] text-left">
-              <strong className="text-gold">P.S.</strong> — If you're still reading this, something in you knows this is for you. The part of you that's tired of carrying old wounds into new relationships. The part of you that wants to show up whole. Don't let that part be silenced by hesitation. The 3 nights of May 8–10 will pass regardless. The question is whether you'll be in the room when they do. Secure your spot now for ₦10,000 before it's gone.
+              <strong className="text-gold">P.S.</strong> — If you're still reading this, something in you knows this is for you. The part of you that's tired of carrying old wounds into new relationships. The part of you that wants to show up whole. Don't let that part be silenced by hesitation. The 3 nights of May 28–30 will pass regardless. The question is whether you'll be in the room when they do. Secure your spot now for ₦10,000 before it's gone.
             </div>
           </div>
         </FadeUp>
@@ -475,7 +475,7 @@ function HealBeforeTheDeal() {
           © 2026 Dr. Peter Obichukwu · Ideal Life City · All Rights Reserved
         </p>
         <p className="text-[13px] text-muted-foreground/70 mb-1.5">
-          Online Webinar · May 8–10, 2026 · 9PM WAT · <span className="text-teal-lt font-semibold">@thepastorpeter</span>
+          Online Webinar · May 28–30, 2026 · 9PM WAT · <span className="text-teal-lt font-semibold">@thepastorpeter</span>
         </p>
         <p className="text-[13px] text-muted-foreground/70">
           Questions? Reach out via <a href="https://www.teaketer.online/events/heal-before-the-deal" target="_blank" rel="noopener noreferrer" className="text-gold no-underline">@thepastorpeter</a> on social media.
@@ -485,7 +485,7 @@ function HealBeforeTheDeal() {
       {/* ── Sticky CTA ── */}
       <div className={`fixed bottom-0 left-0 right-0 bg-dark/[0.96] backdrop-blur-xl border-t border-gold/20 py-4 px-7 z-[999] flex items-center justify-between gap-5 transition-transform duration-500 ${showSticky ? "translate-y-0" : "translate-y-full"} max-[520px]:flex-col max-[520px]:text-center`}>
         <div>
-          <strong className="font-serif font-extrabold text-[17px] text-foreground block">Heal Before the Deal — May 8–10</strong>
+          <strong className="font-serif font-extrabold text-[17px] text-foreground block">Heal Before the Deal — May 28–30</strong>
           <span className="text-[13px] text-muted-foreground">9PM WAT · Online · Only ₦10,000</span>
         </div>
         <a href="https://www.teaketer.online/events/heal-before-the-deal" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2.5 bg-gold text-background font-bold text-[15px] px-8 py-3.5 rounded-md no-underline shadow-[0_4px_24px_rgba(201,168,76,0.3)] hover:translate-y-[-2px] hover:shadow-[0_8px_32px_rgba(201,168,76,0.5)] transition-all max-[520px]:w-full max-[520px]:justify-center">
