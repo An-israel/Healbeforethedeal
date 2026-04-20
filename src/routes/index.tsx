@@ -135,7 +135,9 @@ function HealBeforeTheDeal() {
           </h1>
 
           <p className="font-serif italic text-muted-foreground text-[19px] max-w-[560px] mb-9 leading-relaxed">
-            You're not unlucky in love. You're carrying wounds that keep choosing for you. Join Dr. Peter Obichukwu for a 3 day live masterclass designed to help you understand your emotional triggers, break toxic cycles, and become truly ready for a healthy relationship.
+            You're not unlucky in love. You're carrying wounds that keep choosing for you.
+            <br /><br />
+            Join Dr. Peter Obichukwu for a 3 day live masterclass designed to help you understand your emotional triggers, break toxic cycles, and become truly ready for a healthy relationship.
           </p>
 
           <div className="flex flex-wrap gap-5 mb-10 justify-center">
@@ -184,12 +186,12 @@ function HealBeforeTheDeal() {
                 <h2 className="font-serif font-black text-foreground leading-[1.1] mb-2" style={{ fontSize: "clamp(28px,4vw,44px)" }}>
                   Dr. Peter<br />Obichukwu
                 </h2>
-                <p className="text-[15px] font-semibold text-teal-lt mb-6">Relationship Coach · Lead Pastor, Ideal Life City</p>
+                <p className="text-[15px] font-semibold text-teal-lt mb-6">Relationship Coach · Author, Impostor Love</p>
                 <p className="text-base text-foreground/70 leading-[1.8] mb-5">
-                  Dr. Peter Obichukwu is a Relationship Coach, author, and Lead Pastor of Ideal Life City. He is the author of Impostor Love, a compelling and eye opening book that exposes the counterfeit emotional patterns people mistake for genuine love, and how those patterns silently destroy relationships before they even begin.
+                  Dr. Peter Obichukwu is a Relationship Coach and author of Impostor Love, a compelling and eye opening book that exposes the counterfeit emotional patterns people mistake for genuine love, and how those patterns silently destroy relationships before they even begin.
                 </p>
                 <p className="text-base text-foreground/70 leading-[1.8] mb-6">
-                  With years of experience in counselling, coaching, and ministry, Dr. Peter has guided hundreds of men and women through the difficult but liberating process of understanding their emotional wounds, identifying destructive cycles, and building the kind of inner wholeness that healthy, lasting relationships require. He does not just talk about healing. He walks people through it.
+                  With years of experience in counselling and coaching, Dr. Peter has guided hundreds of men and women through the difficult but liberating process of understanding their emotional wounds, identifying destructive cycles, and building the kind of inner wholeness that healthy, lasting relationships require. He does not just talk about healing. He walks people through it.
                 </p>
                 <div className="flex flex-wrap gap-2.5">
                   <Tag text="Relationship Coach" />
@@ -253,7 +255,7 @@ function HealBeforeTheDeal() {
                 desc="Before you can heal, you need an honest diagnosis. We'll walk through a powerful self assessment to reveal your true emotional state and what it means for your relationships right now." />
               <DiscoverItem day="02" night="Night 1" icon={<Brain className="w-5 h-5 text-gold" />}
                 title="Navigating Subtle and Complex Traumas"
-                desc="Not all trauma looks like a crisis. Many of the deepest wounds are quiet, hidden, and subtle — passed down through family, religion, or culture. Learn to identify them before they derail your next relationship." />
+                desc="Not all trauma looks like a crisis. Many of the deepest wounds are quiet, hidden, and subtle, passed down through family, religion, or culture. Learn to identify them before they derail your next relationship." />
               <DiscoverItem day="03" night="Night 2" icon={<Target className="w-5 h-5 text-gold" />}
                 title="Break Free: Stop Dating Your Wounds"
                 desc="Why do we keep choosing people who reflect our pain? Dr. Peter reveals the mechanism behind wound based attraction and the exact steps to interrupt it for good." />
@@ -262,10 +264,10 @@ function HealBeforeTheDeal() {
                 desc="Your past relationships are not baggage. They're data. Learn how to mine them for insight, close old chapters with grace, and use what you've learned to build something beautiful ahead." />
               <DiscoverItem day="05" night="Night 3" icon={<Map className="w-5 h-5 text-gold" />}
                 title="Know Yourself: Identify Your Emotional Triggers and Wound Map"
-                desc="You'll leave with a personalised Wound Map — a clear picture of your emotional triggers, attachment patterns, and blind spots — so you never walk into a relationship blind again." />
+                desc="You'll leave with a personalised Wound Map, a clear picture of your emotional triggers, attachment patterns, and blind spots, so you never walk into a relationship blind again." />
               <DiscoverItem day="06" night="Night 3" icon={<Key className="w-5 h-5 text-gold" />}
                 title="Proven Keys to Emotional Readiness"
-                desc="The final session is pure activation. Dr. Peter shares the practical, spiritual, and psychological keys to genuine relationship readiness — so you can move forward with clarity, confidence, and wholeness." />
+                desc="The final session is pure activation. Dr. Peter shares the practical, spiritual, and psychological keys to genuine relationship readiness, so you can move forward with clarity, confidence, and wholeness." />
             </div>
           </div>
         </FadeUp>
@@ -318,8 +320,8 @@ function HealBeforeTheDeal() {
                 desc="Can't catch a night live? Or want to revisit a session that hit deep? You'll have 72 hour replay access to all three nights so nothing slips through."
                 value="₦12,000" />
               <BonusCard num="Bonus 03" icon={<UserCheck className="w-6 h-6 text-gold" />}
-                title="One on One Access to Dr. Peter"
-                desc="Each night ends with an intimate session where you get direct, personal access to Dr. Peter. Bring your most pressing questions and get real, honest answers in a safe and supportive space."
+                title="One-on-One"
+                desc="You get a direct and personal access to Dr. Peter. Bring your most pressing questions and get real, honest answers in a safe and supportive space."
                 value="₦25,000" />
               <BonusCard num="Bonus 04" icon={<Users className="w-6 h-6 text-gold" />}
                 title="Heal Before the Deal Community"
@@ -353,7 +355,7 @@ function HealBeforeTheDeal() {
                 sub="Rewatch every session at your own pace"
                 amount="₦12,000" />
               <ValueRow icon={<UserCheck className="w-5 h-5 text-gold" />}
-                title="One on One Access to Dr. Peter — All 3 Nights"
+                title="One-on-One with Dr. Peter — All 3 Nights"
                 sub="Direct personal access to Dr. Peter for your deepest questions"
                 amount="₦25,000" />
               <ValueRow icon={<Users className="w-5 h-5 text-gold" />}
@@ -468,7 +470,7 @@ function HealBeforeTheDeal() {
       {/* ── Footer ── */}
       <footer className="bg-background border-t border-border py-9 px-7 text-center">
         <p className="text-[13px] text-muted-foreground/70 mb-1.5">
-          © 2026 Dr. Peter Obichukwu · Ideal Life City · All Rights Reserved
+          © 2026 Dr. Peter Obichukwu · All Rights Reserved
         </p>
         <p className="text-[13px] text-muted-foreground/70 mb-1.5">
           Online Webinar · May 28–30, 2026 · 9PM WAT · <span className="text-teal-lt font-semibold">@thepastorpeter</span>
