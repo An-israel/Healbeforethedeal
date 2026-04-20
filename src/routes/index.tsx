@@ -264,10 +264,10 @@ function HealBeforeTheDeal() {
                 desc="Your past relationships are not baggage. They're data. Learn how to mine them for insight, close old chapters with grace, and use what you've learned to build something beautiful ahead." />
               <DiscoverItem day="05" night="Night 3" icon={<Map className="w-5 h-5 text-gold" />}
                 title="Know Yourself: Identify Your Emotional Triggers and Wound Map"
-                desc="You'll leave with a personalised Wound Map — a clear picture of your emotional triggers, attachment patterns, and blind spots — so you never walk into a relationship blind again." />
+                desc="You'll leave with a personalised Wound Map, a clear picture of your emotional triggers, attachment patterns, and blind spots, so you never walk into a relationship blind again." />
               <DiscoverItem day="06" night="Night 3" icon={<Key className="w-5 h-5 text-gold" />}
                 title="Proven Keys to Emotional Readiness"
-                desc="The final session is pure activation. Dr. Peter shares the practical, spiritual, and psychological keys to genuine relationship readiness — so you can move forward with clarity, confidence, and wholeness." />
+                desc="The final session is pure activation. Dr. Peter shares the practical, spiritual, and psychological keys to genuine relationship readiness, so you can move forward with clarity, confidence, and wholeness." />
             </div>
           </div>
         </FadeUp>
