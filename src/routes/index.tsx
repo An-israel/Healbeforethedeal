@@ -216,12 +216,12 @@ function HealBeforeTheDeal() {
             </p>
 
             <div className="grid sm:grid-cols-2 gap-4">
-              <PainCard text="You keep attracting the same type of emotionally unavailable or damaging partners and you can't understand why." />
-              <PainCard text="You know your past has shaped you, but you don't know how to break free from the patterns it created in your love life." />
-              <PainCard text="You feel emotionally triggered in relationships. Jealousy, fear, anger, withdrawal. But you don't understand where it's coming from." />
-              <PainCard text="You've been through heartbreak and want love again, but something inside you is afraid to fully open up and trust again." />
-              <PainCard text="You're single and waiting for 'the one' but deep down, you're not sure you're truly ready to be the partner someone deserves." />
-              <PainCard text="You sabotage good relationships by pushing people away, creating drama, or settling for less than you know you deserve." />
+              <PainCard text="You keep attracting the same kind of emotionally unavailable or toxic partners; different faces, same story, and you don't know how to break the cycle." />
+              <PainCard text="You know your past affected you, but you don't know how to stop it from showing up in your relationships today." />
+              <PainCard text="You get triggered in relationships; anxiety, anger, withdrawal, and afterward, you don't even recognize your own reactions." />
+              <PainCard text="You've been hurt before, and while you want love again, a part of you is guarded, skeptical, and afraid to fully open up." />
+              <PainCard text="You're single and waiting for the right person, but deep down, you question whether you're truly ready for a healthy relationship." />
+              <PainCard text="You push away good people, settle for less than you deserve, or create patterns that quietly ruin something that could have been right." />
             </div>
 
             <div className="mt-10 bg-gradient-to-br from-teal/[0.12] to-teal/[0.04] border border-teal/25 rounded-[14px] py-9 px-10 text-center">
